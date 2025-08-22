@@ -78,13 +78,16 @@ beginning to build the game.
 - Some of the material here is redundant from Cloud Basics.  The practical is really good, but some of the concepts need to be explained before.  SSH, nano vs. vim, other networking concepts that should be covered earlier?
 
 ## Lesson 11
--There's some good graphics in here, but consider adding some videos or visuals to the git lesson? 
+- There's some good graphics in here, but consider adding some videos or visuals to the git lesson? 
 
 ## Lesson 12
--Great feedback from this.  Retain.  This was a comprehensive review.
+- Great feedback from this.  Retain.  This was a comprehensive review.
 
 ## Lesson 13
+- Good class, should be conducted on cArmy, if possible
 
 ## Lesson 14
+- Good intro but could use some better exercises on usage.
 
 ## Lesson 15
+- Possibly do one last practical exercise here covering the last half of the course?
