@@ -86,6 +86,9 @@ students = [("Alice", [90, 95]), ("Bob", [85, 88])]
 
 ✅ *Check*: Should print powers of 2: 1, 2, 4, ..., up to 1024.
 
+# the problem with how you have this written, the last n should be 512, not 1024.
+# you could either change logic to while n<= 1024 or change your check statement to ... up to 512
+
 ---
 
 ### Exercise 10: For Loop with Enumerate
