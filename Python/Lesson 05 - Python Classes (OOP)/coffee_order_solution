@@ -1,0 +1,54 @@
+# 1. Create a class called CoffeeOrder
+class CoffeeOrder:
+    
+# 1.a: define the __init__ method with self, customer_name, and coffee_type parameters. 
+#      set the self.is_completed to false    
+    def __init__(self, customer_name, coffee_type):
+        # Initializing the attributes
+        self.customer_name = customer_name
+        self.coffee_type = coffee_type
+        self.is_completed = False  # Defaults to False as requested
+
+# 1.b: define describe with the self parameter
+#      print the details of the order (customer name and coffee type)
+#      Example: Order for Doug: One Hot Chocolate
+    def describe(self):
+        """Prints the details of the order."""
+        print(f"Order for {self.customer_name}: One {self.coffee_type}.")
+
+# 1.c: define complete_order with the self parameter
+#      this will mark the order as finished
+#      self.is_completed = True
+#      print the order is ready
+#      Example: The Hot Chocolate for Doug is ready
+    def complete_order(self):
+        """Marks the order as finished."""
+        self.is_completed = True
+        print(f"✨ The {self.coffee_type} for {self.customer_name} is ready!")
+
+# 2: testing the class
+#    create two different coffee objects (Instances)
+order1 = CoffeeOrder("Alice", "Latte")
+order2 = CoffeeOrder("Bob", "Espresso")
+
+# 3: describe the instances
+order1.describe()
+order2.describe()
+
+# 4: complete one of the orders
+#    print a header that reads "--- Update ---"
+print("\n--- Update ---")
+order1.complete_order()
+
+# 5: check the status of both orders
+print(f"Is Alice's order done? {order1.is_completed}")
+print(f"Is Bob's order done? {order2.is_completed}")
+
+# Expected Output:
+# Order for Alice: One Latte.
+# Order for Bob: One Espresso.
+
+# --- Update ---
+# ✨ The Latte for Alice is ready!
+# Is Alice's order done? True
+# Is Bob's order done? False

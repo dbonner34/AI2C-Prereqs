@@ -1,0 +1,24 @@
+# 1. Create a class called CoffeeOrder
+
+# 1.a: define the __init__ method with self, customer_name, and coffee_type parameters. 
+#      set the self.is_completed to false
+
+# 1.b: define describe with the self parameter
+#      print the details of the order
+#      Example: Order for Doug: One Hot Chocolate
+
+# 1.c: define complete_order with the self parameter
+#      this will mark the order as finished
+#      self.is_completed = True
+#      print the order is ready
+#      Example: The Hot Chocolate for Doug is ready
+
+# 2: testing the class
+#    create two different coffee objects (Instances)
+
+# 3: describe the instances
+
+# 4: complete one of the orders
+#    print a header that reads "--- Update ---"
+
+# 5: check the status of both orders
